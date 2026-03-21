@@ -1,7 +1,5 @@
 # -----------------------------------------------------------------------------
-
-poweredByRetype: true         # Set to false to remove "Powered by Retype"
-
+# Powered by Retype
 # -----------------------------------------------------------------------------
 
 breadcrumb:
@@ -11,9 +9,15 @@ breadcrumb:
 
 # -----------------------------------------------------------------------------
 
+input: .
+output: .retype
+
+# -----------------------------------------------------------------------------
+
 branding:
-  title: imgui.cc
+  title: fastflags.space
   logo: assets/cartii.jpg
+
   colors:
     label:
       text: "#7700ff"
@@ -35,7 +39,7 @@ links:
 # -----------------------------------------------------------------------------
 
 footer:
-  copyright: "© Copyright {{ year }} – imgui.cc – All rights reserved."
+  copyright: "© Copyright {{ year }} – fastflags.space – All rights reserved."
   links:
     - text: Privacy Policy
       link: privacy-policy.md
@@ -51,9 +55,4 @@ favicon: static/favicon.png
 # -----------------------------------------------------------------------------
 
 meta:
-  title: " | archive.imgui.cc"
-
-# -----------------------------------------------------------------------------
-
-input: .
-output: .retype
+  title: " | archive.fastflags.space"
