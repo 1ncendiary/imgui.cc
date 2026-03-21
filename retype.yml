@@ -1,5 +1,7 @@
 # -----------------------------------------------------------------------------
-# Powered by Retype
+
+poweredByRetype: true         # Set to false to remove "Powered by Retype"
+
 # -----------------------------------------------------------------------------
 
 breadcrumb:
@@ -9,15 +11,9 @@ breadcrumb:
 
 # -----------------------------------------------------------------------------
 
-input: .
-output: .retype
-
-# -----------------------------------------------------------------------------
-
 branding:
   title: imgui.cc
   logo: assets/cartii.jpg
-
   colors:
     label:
       text: "#7700ff"
@@ -56,3 +52,8 @@ favicon: static/favicon.png
 
 meta:
   title: " | archive.imgui.cc"
+
+# -----------------------------------------------------------------------------
+
+input: .
+output: .retype
