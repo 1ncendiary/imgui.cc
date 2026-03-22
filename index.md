@@ -7,12 +7,6 @@ authors:
 date: 2023-08-26
 ---
 
----
-title: Information
-icon: rel-file-path
-redirect: https://imgui.cc/
----
-
 <div align="center">
   
 <img src="assets/pbc.png" width="768">
