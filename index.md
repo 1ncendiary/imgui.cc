@@ -13,8 +13,7 @@ date: 2023-08-26
   
 <img src="assets/pbc.png" width="768">
 
-**fastflags.space** was a community-driven resource dedicated to cataloging and sharing information about FastFlags configuration.
-
+**archive.imgui.cc** was a community-driven resource dedicated to cataloging and sharing information about FastFlags configuration.
 
 </div>
 
