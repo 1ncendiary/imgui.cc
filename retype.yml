@@ -8,7 +8,7 @@ start:
     pro: true
 
 meta:
-  title: " | archive.fastflags.space"
+  title: " | archive.imgui.cc"
 
 breadcrumb:
   enabled: true
@@ -42,7 +42,7 @@ links:
 # -----------------------------------------------------------------------------
 
 footer:
-  copyright: "© Copyright {{ year }} – fastflags.space – All rights reserved."
+  copyright: "© Copyright {{ year }} – imgui.cc – All rights reserved."
   links:
     - text: Privacy Policy
       link: privacy-policy.md
