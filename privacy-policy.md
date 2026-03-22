@@ -7,7 +7,7 @@ description: Provided by fastflags.space
 
 ![](assets/pbc.png)
 
-At **fastflags.space**, we value your privacy and are committed to protecting your personal information. This Privacy Policy explains how we collect, use, and safeguard your data when you visit our website.
+At **imgui.cc**, we value your privacy and are committed to protecting your personal information. This Privacy Policy explains how we collect, use, and safeguard your data when you visit our website.
 
 ---
 
