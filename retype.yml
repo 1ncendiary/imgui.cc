@@ -1,58 +1,19 @@
-# -----------------------------------------------------------------------------
-# Powered by Retype
-# -----------------------------------------------------------------------------
-
-breadcrumb:
-  enabled: true
-  home: ":icon-home:"
-  separator: "|"
-
-# -----------------------------------------------------------------------------
-
 input: .
 output: .retype
 
-# -----------------------------------------------------------------------------
+url: docs.example.com # Use your website address here
+
+start:
+  # Try the Retype Pro features
+  pro: true
 
 branding:
-  title: fastflags.space
-  logo: assets/cartii.jpg
-
-  colors:
-    label:
-      text: "#7700ff"
-      background: "#0f0f0f"
-
-# -----------------------------------------------------------------------------
+  title: Project Name
+  label: Docs
 
 links:
-  - text: Discord
-    link: https://discord.gg/6zqNQTSkrg
-    icon: people
-  - text: Repository
-    link: https://github.com/fastdotspace/fastflags.space
-    icon: mark-github
-  - text: Patreon
-    link: https://patreon.com/fastflags
-    icon: feed-heart
-
-# -----------------------------------------------------------------------------
+  - text: Getting Started
+    link: https://retype.com/guides/getting-started/
 
 footer:
-  copyright: "© Copyright {{ year }} – fastflags.space – All rights reserved."
-  links:
-    - text: Privacy Policy
-      link: privacy-policy.md
-      icon: shield-lock
-    - text: Issues
-      link: https://github.com/fastdotspace/fastflags.space/issues
-      icon: comment-discussion
-
-# -----------------------------------------------------------------------------
-
-favicon: static/favicon.png
-
-# -----------------------------------------------------------------------------
-
-meta:
-  title: " | archive.fastflags.space"
+  copyright: "&copy; Copyright {{ year }}. All rights reserved."
