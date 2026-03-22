@@ -1,31 +1,19 @@
 input: .
 output: .retype
-# -----------------------------------------------------------------------------
-# Powered by Retype
-# -----------------------------------------------------------------------------
 
-breadcrumb:
-  enabled: true
-  home: ":icon-home:"
-  separator: "|"
+url: imgui.cc
 
-# -----------------------------------------------------------------------------
 start:
   # Try the Retype Pro features
   pro: true
-# -----------------------------------------------------------------------------
+
+meta:
+  title: " | archive.fastflags.space"
 
 branding:
-  title: fastflags.space
+  title: imgui.cc
   logo: assets/cartii.jpg
-
-  colors:
-    label:
-      text: "#7700ff"
-      background: "#0f0f0f"
-
-# -----------------------------------------------------------------------------
-
+  
 links:
   - text: Discord
     link: https://discord.gg/6zqNQTSkrg
@@ -36,9 +24,7 @@ links:
   - text: Patreon
     link: https://patreon.com/fastflags
     icon: feed-heart
-
-# -----------------------------------------------------------------------------
-
+    
 footer:
   copyright: "© Copyright {{ year }} – fastflags.space – All rights reserved."
   links:
@@ -48,12 +34,4 @@ footer:
     - text: Issues
       link: https://github.com/fastdotspace/fastflags.space/issues
       icon: comment-discussion
-
-# -----------------------------------------------------------------------------
-
 favicon: static/favicon.png
-
-# -----------------------------------------------------------------------------
-
-meta:
-  title: " | archive.imgui.cc"
