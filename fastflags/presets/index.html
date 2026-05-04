@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.5.3.831200434847">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.5.3.831200751773">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 4.5.3">
@@ -38,12 +38,12 @@
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
     <link id="retype-favicon" rel="icon" href="../../static/favicon.png" />
-    <link href="../../resources/css/retype.css?v=4.5.3.831200434847" rel="stylesheet">
+    <link href="../../resources/css/retype.css?v=4.5.3.831200751773" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../resources/js/config.js?v=4.5.3.831200434847" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/config.js?v=4.5.3.831200751773" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../../resources/js/retype.js?v=4.5.3" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=4.5.3.831200434847" data-turbo-eval="false" defer></script>
-    <script id="prism-js" data-cfasync="false" src="../../resources/js/prism.js?v=4.5.3.831200434847" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=4.5.3.831200751773" data-turbo-eval="false" defer></script>
+    <script id="prism-js" data-cfasync="false" src="../../resources/js/prism.js?v=4.5.3.831200751773" defer></script>
 </head>
 <body>
     <div id="retype-app" class="relative text-base antialiased text-base-text bg-base-bg font-body">
@@ -202,133 +202,230 @@
 <div id="high-quality-code-1" class="codeblock-wrapper"><doc-codeblock>
 <pre translate="no" class="language-json"><code v-pre class="language-json">{
     // === Vulkan Render API ===
-    &quot;FFlagDebugGraphicsDisableDirect3D11&quot;: &quot;False&quot;, // Set to True to Disable DirectX
-    &quot;FFlagDebugGraphicsPreferVulkan&quot;: &quot;False&quot;, // Set to True to use Vulkan
+   &quot;FFlagDebugGraphicsDisableDirect3D11&quot;: &quot;False&quot;, // Set to True to Disable DirectX
+   &quot;FFlagDebugGraphicsPreferVulkan&quot;: &quot;False&quot;, // Set to True to use Vulkan
 
     // === Lighting ===
-    &quot;FFlagDebugForceFutureIsBrightPhase3&quot;: &quot;True&quot;, // Enable Future Lighting
+   &quot;FFlagDebugForceFutureIsBrightPhase3&quot;: &quot;True&quot;, // Enable Future Lighting
 
     // === Graphics ===
-    &quot;DFIntDebugFRMQualityLevelOverride&quot;: &quot;21&quot;, // Force to max quality level
-    &quot;FFlagFastGPULightCulling3&quot;: &quot;True&quot;, // Enable GPU Light Culling
-    &quot;DFIntMaxFrameBufferSize&quot;: &quot;4&quot;, // Frame Buffer Size
-    &quot;DFFlagTextureQualityOverrideEnabled&quot;: &quot;True&quot;, // Enable Texture Quality Override
-    &quot;DFIntTextureQualityOverride&quot;: &quot;3&quot;, // Texture Quality Level
-    &quot;FIntDebugForceMSAASamples&quot;: &quot;4&quot;, // Force MSAA (4x)
+   &quot;DFIntDebugFRMQualityLevelOverride&quot;: &quot;21&quot;, // Force to max quality level
+   &quot;FFlagFastGPULightCulling3&quot;: &quot;True&quot;, // Enable GPU Light Culling
+   &quot;DFIntMaxFrameBufferSize&quot;: &quot;4&quot;, // Frame Buffer Size
+   &quot;DFFlagTextureQualityOverrideEnabled&quot;: &quot;True&quot;, // Enable Texture Quality Override
+   &quot;DFIntTextureQualityOverride&quot;: &quot;3&quot;, // Texture Quality Level
+   &quot;FIntDebugForceMSAASamples&quot;: &quot;4&quot;, // Force MSAA (4x)
 
     // === UI ===
-    &quot;FIntFullscreenTitleBarTriggerDelayMillis&quot;: &quot;3600000&quot;, // Disable Fullscreen Title Bar
-    &quot;FFlagUserShowGuiHideToggles&quot;: &quot;True&quot;, // Optional UI Toggles
+   &quot;FIntFullscreenTitleBarTriggerDelayMillis&quot;: &quot;3600000&quot;, // Disable Fullscreen Title Bar
+   &quot;FFlagUserShowGuiHideToggles&quot;: &quot;True&quot;, // Optional UI Toggles
 
     // === Useful ===
-    &quot;FIntCameraMaxZoomDistance&quot;: &quot;9999&quot;, // Doesn't work on all games
-    &quot;FFlagVoiceBetaBadge&quot;: &quot;False&quot;, // Disable stupid badge
-    &quot;FFlagTopBarUseNewBadge&quot;: &quot;False&quot;,
-    &quot;FFlagBetaBadgeLearnMoreLinkFormview&quot;: &quot;False&quot;,
-    &quot;FFlagControlBetaBadgeWithGuac&quot;: &quot;False&quot;,
-    &quot;FStringVoiceBetaBadgeLearnMoreLink&quot;: &quot;null&quot;,
-    &quot;FFlagDebugEnableNewWebView2DevTool&quot;: &quot;True&quot;, // Enable DevTools on WebViews
+   &quot;FIntCameraMaxZoomDistance&quot;: &quot;9999&quot;, // Doesn't work on all games
+   &quot;FFlagVoiceBetaBadge&quot;: &quot;False&quot;, // Disable stupid badge
+   &quot;FFlagTopBarUseNewBadge&quot;: &quot;False&quot;,
+   &quot;FFlagBetaBadgeLearnMoreLinkFormview&quot;: &quot;False&quot;,
+   &quot;FFlagControlBetaBadgeWithGuac&quot;: &quot;False&quot;,
+   &quot;FStringVoiceBetaBadgeLearnMoreLink&quot;: &quot;null&quot;,
+   &quot;FFlagDebugEnableNewWebView2DevTool&quot;: &quot;True&quot;, // Enable DevTools on WebViews
 
     // === Ads ===
-    &quot;FFlagAdServiceEnabled&quot;: &quot;False&quot;, // Disable Ads
+   &quot;FFlagAdServiceEnabled&quot;: &quot;False&quot;, // Disable Ads
 
     // === Network ===
-    &quot;DFIntConnectionMTUSize&quot;: &quot;1472&quot;, // MTU Size
+   &quot;DFIntConnectionMTUSize&quot;: &quot;1472&quot;, // MTU Size
 
     // === Loading ===
-    &quot;FFlagEnableQuickGameLaunch&quot;: &quot;True&quot;, // Enable Quick Game Launch
-    &quot;DFIntNumAssetsMaxToPreload&quot;: &quot;9999999&quot;, // Max asset preload
-    &quot;DFIntAssetPreloading&quot;: &quot;9999999&quot;,
+   &quot;FFlagEnableQuickGameLaunch&quot;: &quot;True&quot;, // Enable Quick Game Launch
+   &quot;DFIntNumAssetsMaxToPreload&quot;: &quot;9999999&quot;, // Max asset preload
+   &quot;DFIntAssetPreloading&quot;: &quot;9999999&quot;,
 
     // === Performance ===
-    &quot;FFlagDebugCheckRenderThreading&quot;: &quot;True&quot;,
-    &quot;FFlagRenderDebugCheckThreading2&quot;: &quot;True&quot;, // Enable HyperThreading
-    &quot;FFlagTaskSchedulerLimitTargetFpsTo2402&quot;: &quot;False&quot;, // Remove 240 FPS Limit
-    &quot;DFIntTaskSchedulerTargetFps&quot;: &quot;9999&quot;, // Set custom FPS target
+   &quot;FFlagDebugCheckRenderThreading&quot;: &quot;True&quot;,
+   &quot;FFlagRenderDebugCheckThreading2&quot;: &quot;True&quot;, // Enable HyperThreading
+   &quot;FFlagTaskSchedulerLimitTargetFpsTo2402&quot;: &quot;False&quot;, // Remove 240 FPS Limit
+   &quot;DFIntTaskSchedulerTargetFps&quot;: &quot;9999&quot;, // Set custom FPS target
 
     // === Telemetry ===
-    &quot;DFStringTelemetryV2Url&quot;: &quot;0.0.0.0&quot;,
-    &quot;FFlagEnableTelemetryProtocol&quot;: &quot;False&quot;,
-    &quot;FFlagEnableTelemetryService1&quot;: &quot;False&quot;,
-    &quot;FFlagPropertiesEnableTelemetry&quot;: &quot;False&quot;,
-    &quot;FFlagOpenTelemetryEnabled2&quot;: &quot;False&quot;
+   &quot;DFStringTelemetryV2Url&quot;: &quot;0.0.0.0&quot;,
+   &quot;FFlagEnableTelemetryProtocol&quot;: &quot;False&quot;,
+   &quot;FFlagEnableTelemetryService1&quot;: &quot;False&quot;,
+   &quot;FFlagPropertiesEnableTelemetry&quot;: &quot;False&quot;,
+   &quot;FFlagOpenTelemetryEnabled2&quot;: &quot;False&quot;
 }</code></pre>
 </doc-codeblock></div>
+<doc-panel id="clean-json" collapsed>
+    <template #title>Clean JSON</template>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre translate="no" class="language-json"><code v-pre class="language-json">{
+   &quot;FFlagDebugGraphicsDisableDirect3D11&quot;: &quot;False&quot;,
+   &quot;FFlagDebugGraphicsPreferVulkan&quot;: &quot;False&quot;,
+   &quot;FFlagDebugForceFutureIsBrightPhase3&quot;: &quot;True&quot;,
+   &quot;DFIntDebugFRMQualityLevelOverride&quot;: &quot;21&quot;,
+   &quot;FFlagFastGPULightCulling3&quot;: &quot;True&quot;,
+   &quot;DFIntMaxFrameBufferSize&quot;: &quot;4&quot;,
+   &quot;DFFlagTextureQualityOverrideEnabled&quot;: &quot;True&quot;,
+   &quot;DFIntTextureQualityOverride&quot;: &quot;3&quot;,
+   &quot;FIntDebugForceMSAASamples&quot;: &quot;4&quot;,
+   &quot;FIntFullscreenTitleBarTriggerDelayMillis&quot;: &quot;3600000&quot;,
+   &quot;FFlagUserShowGuiHideToggles&quot;: &quot;True&quot;,
+   &quot;FIntCameraMaxZoomDistance&quot;: &quot;9999&quot;,
+   &quot;FFlagVoiceBetaBadge&quot;: &quot;False&quot;,
+   &quot;FFlagTopBarUseNewBadge&quot;: &quot;False&quot;,
+   &quot;FFlagBetaBadgeLearnMoreLinkFormview&quot;: &quot;False&quot;,
+   &quot;FFlagControlBetaBadgeWithGuac&quot;: &quot;False&quot;,
+   &quot;FStringVoiceBetaBadgeLearnMoreLink&quot;: &quot;null&quot;,
+   &quot;FFlagDebugEnableNewWebView2DevTool&quot;: &quot;True&quot;,
+   &quot;FFlagAdServiceEnabled&quot;: &quot;False&quot;,
+   &quot;DFIntConnectionMTUSize&quot;: &quot;1472&quot;,
+   &quot;FFlagEnableQuickGameLaunch&quot;: &quot;True&quot;,
+   &quot;DFIntNumAssetsMaxToPreload&quot;: &quot;9999999&quot;,
+   &quot;DFIntAssetPreloading&quot;: &quot;9999999&quot;,
+   &quot;FFlagDebugCheckRenderThreading&quot;: &quot;True&quot;,
+   &quot;FFlagRenderDebugCheckThreading2&quot;: &quot;True&quot;,
+   &quot;FFlagTaskSchedulerLimitTargetFpsTo2402&quot;: &quot;False&quot;,
+   &quot;DFIntTaskSchedulerTargetFps&quot;: &quot;9999&quot;,
+   &quot;DFStringTelemetryV2Url&quot;: &quot;0.0.0.0&quot;,
+   &quot;FFlagEnableTelemetryProtocol&quot;: &quot;False&quot;,
+   &quot;FFlagEnableTelemetryService1&quot;: &quot;False&quot;,
+   &quot;FFlagPropertiesEnableTelemetry&quot;: &quot;False&quot;,
+   &quot;FFlagOpenTelemetryEnabled2&quot;: &quot;False&quot;
+}</code></pre>
+</doc-codeblock></div>
+</doc-panel>
 <h3 id="low-quality"><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><g><path d="M20.322.75h1.176a1.75 1.75 0 0 1 1.75 1.749v1.177a10.75 10.75 0 0 1-2.925 7.374l-1.228 1.304a23.699 23.699 0 0 1-1.596 1.542v5.038c0 .615-.323 1.184-.85 1.5l-4.514 2.709a.75.75 0 0 1-1.12-.488l-.963-4.572a1.305 1.305 0 0 1-.14-.129L8.04 15.96l-1.994-1.873a1.305 1.305 0 0 1-.129-.14l-4.571-.963a.75.75 0 0 1-.49-1.12l2.71-4.514c.316-.527.885-.85 1.5-.85h5.037a23.668 23.668 0 0 1 1.542-1.594l1.304-1.23A10.753 10.753 0 0 1 20.321.75Zm-6.344 4.018v-.001l-1.304 1.23a22.275 22.275 0 0 0-3.255 3.851l-2.193 3.29 1.859 1.744a.545.545 0 0 1 .034.034l1.743 1.858 3.288-2.192a22.263 22.263 0 0 0 3.854-3.257l1.228-1.303a9.251 9.251 0 0 0 2.517-6.346V2.5a.25.25 0 0 0-.25-.25h-1.177a9.252 9.252 0 0 0-6.344 2.518ZM6.5 21c-1.209 1.209-3.901 1.445-4.743 1.49a.236.236 0 0 1-.18-.067.236.236 0 0 1-.067-.18c.045-.842.281-3.534 1.49-4.743.9-.9 2.6-.9 3.5 0 .9.9.9 2.6 0 3.5Zm-.592-8.588L8.17 9.017c.23-.346.47-.685.717-1.017H5.066a.25.25 0 0 0-.214.121l-2.167 3.612ZM16 15.112c-.333.248-.672.487-1.018.718l-3.393 2.262.678 3.223 3.612-2.167a.25.25 0 0 0 .121-.214ZM17.5 8a1.5 1.5 0 1 1-3.001-.001A1.5 1.5 0 0 1 17.5 8Z"/></g></g></svg> Low Quality</h3>
 <div id="low-quality-code-1" class="codeblock-wrapper"><doc-codeblock>
 <pre translate="no" class="language-json"><code v-pre class="language-json">{
     // === Render API ===
-    &quot;FFlagDebugGraphicsPreferD3D11FL10&quot;: &quot;True&quot;, // Use DirectX 10
-    &quot;FFlagHighlightOutlinesOnMobile&quot;: &quot;True&quot;, // Allows Highlights to be used on DirectX 10
+   &quot;FFlagDebugGraphicsPreferD3D11FL10&quot;: &quot;True&quot;, // Use DirectX 10
+   &quot;FFlagHighlightOutlinesOnMobile&quot;: &quot;True&quot;, // Allows Highlights to be used on DirectX 10
 
     // === Vulkan Render API (Set FFlagDebugGraphicsPreferD3D11FL10 to False if you want to use this) ===
-    &quot;FFlagDebugGraphicsDisableDirect3D11&quot;: &quot;False&quot;, // Set to True to Disable DirectX
-    &quot;FFlagDebugGraphicsPreferVulkan&quot;: &quot;False&quot;, // Set to True to use Vulkan
+   &quot;FFlagDebugGraphicsDisableDirect3D11&quot;: &quot;False&quot;, // Set to True to Disable DirectX
+   &quot;FFlagDebugGraphicsPreferVulkan&quot;: &quot;False&quot;, // Set to True to use Vulkan
 
     // === Graphics ===
-    &quot;FIntRenderShadowIntensity&quot;: &quot;0&quot;, // Remove Shadows
-    &quot;FIntGrassMovementReducedMotionFactor&quot;: &quot;0&quot;, // Remove Grass
-    &quot;FIntFRMMinGrassDistance&quot;: &quot;0&quot;, // Remove Grass
-    &quot;FIntFRMMaxGrassDistance&quot;: &quot;0&quot;,
-    &quot;FIntRenderGrassDetailStrands&quot;: &quot;0&quot;,
-    &quot;FFlagRenderNoLowFrmBloom&quot;: &quot;True&quot;, // No Bloom/Clouds
-    &quot;FFlagDisablePostFx&quot;: &quot;True&quot;, // Disable Post Processing Effects
-    &quot;FFlagDebugSkyGray&quot;: &quot;True&quot;, // Gray Sky (optional)
-    &quot;DFIntCSGLevelOfDetailSwitchingDistance&quot;: &quot;85&quot;, // Level of Detail Distance (Adjust to your liking)
-    &quot;DFIntCSGLevelOfDetailSwitchingDistanceL12&quot;: &quot;85&quot;,
-    &quot;DFIntCSGLevelOfDetailSwitchingDistanceL23&quot;: &quot;85&quot;,
-    &quot;DFIntCSGLevelOfDetailSwitchingDistanceL34&quot;: &quot;85&quot;,
-    &quot;DFFlagTextureQualityOverrideEnabled&quot;: &quot;True&quot;, // Force Texture Quality
-    &quot;DFIntTextureQualityOverride&quot;: &quot;3&quot;,
-    &quot;DFIntDebugFRMQualityLevelOverride&quot;: &quot;1&quot;, // Override FRM (Quality Level)
-    &quot;FFlagUserHideCharacterParticlesInFirstPerson&quot;: &quot;True&quot;, // Hide 1st-person particles
-    &quot;FFlagFastGPULightCulling3&quot;: &quot;True&quot;, // Enable GPU Light Culling
-    &quot;FIntRenderLocalLightUpdatesMax&quot;: &quot;8&quot;, // Limit light updates
-    &quot;FIntRenderLocalLightUpdatesMin&quot;: &quot;6&quot;,
-    &quot;FIntRenderLocalLightFadeInMs&quot;: &quot;0&quot;, // Disable light fade animations
+   &quot;FIntRenderShadowIntensity&quot;: &quot;0&quot;, // Remove Shadows
+   &quot;FIntGrassMovementReducedMotionFactor&quot;: &quot;0&quot;, // Remove Grass
+   &quot;FIntFRMMinGrassDistance&quot;: &quot;0&quot;, // Remove Grass
+   &quot;FIntFRMMaxGrassDistance&quot;: &quot;0&quot;,
+   &quot;FIntRenderGrassDetailStrands&quot;: &quot;0&quot;,
+   &quot;FFlagRenderNoLowFrmBloom&quot;: &quot;True&quot;, // No Bloom/Clouds
+   &quot;FFlagDisablePostFx&quot;: &quot;True&quot;, // Disable Post Processing Effects
+   &quot;FFlagDebugSkyGray&quot;: &quot;True&quot;, // Gray Sky (optional)
+   &quot;DFIntCSGLevelOfDetailSwitchingDistance&quot;: &quot;85&quot;, // Level of Detail Distance (Adjust to your liking)
+   &quot;DFIntCSGLevelOfDetailSwitchingDistanceL12&quot;: &quot;85&quot;,
+   &quot;DFIntCSGLevelOfDetailSwitchingDistanceL23&quot;: &quot;85&quot;,
+   &quot;DFIntCSGLevelOfDetailSwitchingDistanceL34&quot;: &quot;85&quot;,
+   &quot;DFFlagTextureQualityOverrideEnabled&quot;: &quot;True&quot;, // Force Texture Quality
+   &quot;DFIntTextureQualityOverride&quot;: &quot;3&quot;,
+   &quot;DFIntDebugFRMQualityLevelOverride&quot;: &quot;1&quot;, // Override FRM (Quality Level)
+   &quot;FFlagUserHideCharacterParticlesInFirstPerson&quot;: &quot;True&quot;, // Hide 1st-person particles
+   &quot;FFlagFastGPULightCulling3&quot;: &quot;True&quot;, // Enable GPU Light Culling
+   &quot;FIntRenderLocalLightUpdatesMax&quot;: &quot;8&quot;, // Limit light updates
+   &quot;FIntRenderLocalLightUpdatesMin&quot;: &quot;6&quot;,
+   &quot;FIntRenderLocalLightFadeInMs&quot;: &quot;0&quot;, // Disable light fade animations
 
     // === UI ===
-    &quot;FFlagUserShowGuiHideToggles&quot;: &quot;True&quot;, // Optional UI Toggles
-    &quot;FIntFullscreenTitleBarTriggerDelayMillis&quot;: &quot;3600000&quot;, // Disable Fullscreen Title Bar
-    &quot;FIntRobloxGuiBlurIntensity&quot;: &quot;0&quot;, // Remove Disconnect/Loading Blur
+   &quot;FFlagUserShowGuiHideToggles&quot;: &quot;True&quot;, // Optional UI Toggles
+   &quot;FIntFullscreenTitleBarTriggerDelayMillis&quot;: &quot;3600000&quot;, // Disable Fullscreen Title Bar
+   &quot;FIntRobloxGuiBlurIntensity&quot;: &quot;0&quot;, // Remove Disconnect/Loading Blur
 
     // === Useful ===
-    &quot;FIntCameraMaxZoomDistance&quot;: &quot;9999&quot;, // Doesn't work on all games
-    &quot;FFlagVoiceBetaBadge&quot;: &quot;False&quot;, // Disable stupid badge
-    &quot;FFlagTopBarUseNewBadge&quot;: &quot;False&quot;,
-    &quot;FFlagBetaBadgeLearnMoreLinkFormview&quot;: &quot;False&quot;,
-    &quot;FFlagControlBetaBadgeWithGuac&quot;: &quot;False&quot;,
-    &quot;FStringVoiceBetaBadgeLearnMoreLink&quot;: &quot;null&quot;,
-    &quot;FFlagDebugEnableNewWebView2DevTool&quot;: &quot;True&quot;, // Enable DevTools on WebViews
+   &quot;FIntCameraMaxZoomDistance&quot;: &quot;9999&quot;, // Doesn't work on all games
+   &quot;FFlagVoiceBetaBadge&quot;: &quot;False&quot;, // Disable stupid badge
+   &quot;FFlagTopBarUseNewBadge&quot;: &quot;False&quot;,
+   &quot;FFlagBetaBadgeLearnMoreLinkFormview&quot;: &quot;False&quot;,
+   &quot;FFlagControlBetaBadgeWithGuac&quot;: &quot;False&quot;,
+   &quot;FStringVoiceBetaBadgeLearnMoreLink&quot;: &quot;null&quot;,
+   &quot;FFlagDebugEnableNewWebView2DevTool&quot;: &quot;True&quot;, // Enable DevTools on WebViews
 
     // === Ads ===
-    &quot;FFlagAdServiceEnabled&quot;: &quot;False&quot;, // Disable Ads
+   &quot;FFlagAdServiceEnabled&quot;: &quot;False&quot;, // Disable Ads
 
     // === Network ===
-    &quot;DFIntConnectionMTUSize&quot;: &quot;1472&quot;, // MTU Size
+   &quot;DFIntConnectionMTUSize&quot;: &quot;1472&quot;, // MTU Size
 
     // === Loading ===
-    &quot;FFlagEnableQuickGameLaunch&quot;: &quot;True&quot;, // Quick Game Launch
-    &quot;DFIntNumAssetsMaxToPreload&quot;: &quot;9999999&quot;, // Increase Asset Preload Count
-    &quot;DFIntAssetPreloading&quot;: &quot;9999999&quot;,
+   &quot;FFlagEnableQuickGameLaunch&quot;: &quot;True&quot;, // Quick Game Launch
+   &quot;DFIntNumAssetsMaxToPreload&quot;: &quot;9999999&quot;, // Increase Asset Preload Count
+   &quot;DFIntAssetPreloading&quot;: &quot;9999999&quot;,
 
     // === Performance ===
-    &quot;FFlagDebugCheckRenderThreading&quot;: &quot;True&quot;, // Enable HyperThreading
-    &quot;FFlagRenderDebugCheckThreading2&quot;: &quot;True&quot;,
-    &quot;DFFlagDisableDPIScale&quot;: &quot;True&quot;, // Disable DPI Scaling
-    &quot;FFlagTaskSchedulerLimitTargetFpsTo2402&quot;: &quot;False&quot;, // Remove 240 FPS Limit
-    &quot;DFIntTaskSchedulerTargetFps&quot;: &quot;9999&quot;,
-    &quot;FFlagMovePrerenderV2&quot;: &quot;True&quot;, // PreRender (Remove if input lag occurs)
-    &quot;DFIntMaxFrameBufferSize&quot;: &quot;4&quot;, // Frame Buffer
+   &quot;FFlagDebugCheckRenderThreading&quot;: &quot;True&quot;, // Enable HyperThreading
+   &quot;FFlagRenderDebugCheckThreading2&quot;: &quot;True&quot;,
+   &quot;DFFlagDisableDPIScale&quot;: &quot;True&quot;, // Disable DPI Scaling
+   &quot;FFlagTaskSchedulerLimitTargetFpsTo2402&quot;: &quot;False&quot;, // Remove 240 FPS Limit
+   &quot;DFIntTaskSchedulerTargetFps&quot;: &quot;9999&quot;,
+   &quot;FFlagMovePrerenderV2&quot;: &quot;True&quot;, // PreRender (Remove if input lag occurs)
+   &quot;DFIntMaxFrameBufferSize&quot;: &quot;4&quot;, // Frame Buffer
 
     // === Telemetry ===
-    &quot;DFStringTelemetryV2Url&quot;: &quot;0.0.0.0&quot;,
-    &quot;FFlagEnableTelemetryProtocol&quot;: &quot;False&quot;,
-    &quot;FFlagEnableTelemetryService1&quot;: &quot;False&quot;,
-    &quot;FFlagPropertiesEnableTelemetry&quot;: &quot;False&quot;,
-    &quot;FFlagOpenTelemetryEnabled2&quot;: &quot;False&quot;
+   &quot;DFStringTelemetryV2Url&quot;: &quot;0.0.0.0&quot;,
+   &quot;FFlagEnableTelemetryProtocol&quot;: &quot;False&quot;,
+   &quot;FFlagEnableTelemetryService1&quot;: &quot;False&quot;,
+   &quot;FFlagPropertiesEnableTelemetry&quot;: &quot;False&quot;,
+   &quot;FFlagOpenTelemetryEnabled2&quot;: &quot;False&quot;
 }</code></pre>
 </doc-codeblock></div>
+<doc-panel id="clean-json-1" collapsed>
+    <template #title>Clean JSON</template>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre translate="no" class="language-json"><code v-pre class="language-json">{
+   &quot;FFlagDebugGraphicsPreferD3D11FL10&quot;: &quot;True&quot;,
+   &quot;FFlagHighlightOutlinesOnMobile&quot;: &quot;True&quot;,
+   &quot;FFlagDebugGraphicsDisableDirect3D11&quot;: &quot;False&quot;,
+   &quot;FFlagDebugGraphicsPreferVulkan&quot;: &quot;False&quot;,
+   &quot;FIntRenderShadowIntensity&quot;: &quot;0&quot;,
+   &quot;FIntGrassMovementReducedMotionFactor&quot;: &quot;0&quot;,
+   &quot;FIntFRMMinGrassDistance&quot;: &quot;0&quot;,
+   &quot;FIntFRMMaxGrassDistance&quot;: &quot;0&quot;,
+   &quot;FIntRenderGrassDetailStrands&quot;: &quot;0&quot;,
+   &quot;FFlagRenderNoLowFrmBloom&quot;: &quot;True&quot;,
+   &quot;FFlagDisablePostFx&quot;: &quot;True&quot;,
+   &quot;FFlagDebugSkyGray&quot;: &quot;True&quot;,
+   &quot;DFIntCSGLevelOfDetailSwitchingDistance&quot;: &quot;85&quot;,
+   &quot;DFIntCSGLevelOfDetailSwitchingDistanceL12&quot;: &quot;85&quot;,
+   &quot;DFIntCSGLevelOfDetailSwitchingDistanceL23&quot;: &quot;85&quot;,
+   &quot;DFIntCSGLevelOfDetailSwitchingDistanceL34&quot;: &quot;85&quot;,
+   &quot;DFFlagTextureQualityOverrideEnabled&quot;: &quot;True&quot;,
+   &quot;DFIntTextureQualityOverride&quot;: &quot;3&quot;,
+   &quot;DFIntDebugFRMQualityLevelOverride&quot;: &quot;1&quot;,
+   &quot;FFlagUserHideCharacterParticlesInFirstPerson&quot;: &quot;True&quot;,
+   &quot;FFlagFastGPULightCulling3&quot;: &quot;True&quot;,
+   &quot;FIntRenderLocalLightUpdatesMax&quot;: &quot;8&quot;,
+   &quot;FIntRenderLocalLightUpdatesMin&quot;: &quot;6&quot;,
+   &quot;FIntRenderLocalLightFadeInMs&quot;: &quot;0&quot;,
+   &quot;FFlagUserShowGuiHideToggles&quot;: &quot;True&quot;,
+   &quot;FIntFullscreenTitleBarTriggerDelayMillis&quot;: &quot;3600000&quot;,
+   &quot;FIntRobloxGuiBlurIntensity&quot;: &quot;0&quot;,
+   &quot;FIntCameraMaxZoomDistance&quot;: &quot;9999&quot;,
+   &quot;FFlagVoiceBetaBadge&quot;: &quot;False&quot;,
+   &quot;FFlagTopBarUseNewBadge&quot;: &quot;False&quot;,
+   &quot;FFlagBetaBadgeLearnMoreLinkFormview&quot;: &quot;False&quot;,
+   &quot;FFlagControlBetaBadgeWithGuac&quot;: &quot;False&quot;,
+   &quot;FStringVoiceBetaBadgeLearnMoreLink&quot;: &quot;null&quot;,
+   &quot;FFlagDebugEnableNewWebView2DevTool&quot;: &quot;True&quot;,
+   &quot;FFlagAdServiceEnabled&quot;: &quot;False&quot;,
+   &quot;DFIntConnectionMTUSize&quot;: &quot;1472&quot;,
+   &quot;FFlagEnableQuickGameLaunch&quot;: &quot;True&quot;,
+   &quot;DFIntNumAssetsMaxToPreload&quot;: &quot;9999999&quot;,
+   &quot;DFIntAssetPreloading&quot;: &quot;9999999&quot;,
+   &quot;FFlagDebugCheckRenderThreading&quot;: &quot;True&quot;,
+   &quot;FFlagRenderDebugCheckThreading2&quot;: &quot;True&quot;,
+   &quot;DFFlagDisableDPIScale&quot;: &quot;True&quot;,
+   &quot;FFlagTaskSchedulerLimitTargetFpsTo2402&quot;: &quot;False&quot;,
+   &quot;DFIntTaskSchedulerTargetFps&quot;: &quot;9999&quot;,
+   &quot;FFlagMovePrerenderV2&quot;: &quot;True&quot;,
+   &quot;DFIntMaxFrameBufferSize&quot;: &quot;4&quot;,
+   &quot;DFStringTelemetryV2Url&quot;: &quot;0.0.0.0&quot;,
+   &quot;FFlagEnableTelemetryProtocol&quot;: &quot;False&quot;,
+   &quot;FFlagEnableTelemetryService1&quot;: &quot;False&quot;,
+   &quot;FFlagPropertiesEnableTelemetry&quot;: &quot;False&quot;,
+   &quot;FFlagOpenTelemetryEnabled2&quot;: &quot;False&quot;
+}</code></pre>
+</doc-codeblock></div>
+</doc-panel>
 
                 
                 <!-- Required only on API pages -->
