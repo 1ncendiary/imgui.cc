@@ -1,0 +1,25 @@
+﻿#  | archive.imgui.cc
+
+> archive.imgui.cc was a community-driven resource dedicated to cataloging and sharing information about FastFlags configuration.
+
+- [Information](https://archive.imgui.cc/index.md): Information
+- [Contact](https://archive.imgui.cc/contact.md): Thanks a lot for spending your time helping.
+
+## Help
+
+- [How To Use](https://archive.imgui.cc/help/how.md): Open the Bloxstrap Menu.
+- [Variables & Prefix](https://archive.imgui.cc/help/prefix.md): Label
+
+## Fast Flags
+
+- [Rendering API](https://archive.imgui.cc/fastflags/render.md): What Render API Roblox will use
+- [Lightning Technologies](https://archive.imgui.cc/fastflags/lighting.md): Force lighting technologies on any game
+- [Graphical Settings](https://archive.imgui.cc/fastflags/graphics.md): This does not affect performance
+- [Quality of Life](https://archive.imgui.cc/fastflags/qol.md): Setting this to True will not do change anything
+- [User Interface/Visuals](https://archive.imgui.cc/fastflags/ui.md): example
+- [Experimental/Testing](https://archive.imgui.cc/fastflags/experimental.md): Person(s) you want to party with must have both of these to be disabled otherwise they won't be able to hear you/speak
+- [Abusive](https://archive.imgui.cc/fastflags/abusive.md): FastFlags are not bannable by Roblox, but abusing them can get you banned from certain games.
+- [Misc](https://archive.imgui.cc/fastflags/misc.md): @.rbx.bloxy
+- [Audio Related](https://archive.imgui.cc/fastflags/audio.md): Default: [Min 7 Max 80]
+- [Trash](https://archive.imgui.cc/fastflags/trash.md)
+- [Presets](https://archive.imgui.cc/fastflags/presets.md): Please read each line before importing
