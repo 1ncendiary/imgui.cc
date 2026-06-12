@@ -23,4 +23,4 @@
 - [Audio Related](https://archive.imgui.cc/fastflags/audio.md): Default: [Min 7 Max 80]
 - [Trash](https://archive.imgui.cc/fastflags/trash.md)
 - [Presets](https://archive.imgui.cc/fastflags/presets.md): Please read each line before importing
-- [2026 Abusive](https://archive.imgui.cc/fastflags/abusive2.md): FastFlags are not bannable by Roblox, but abusing them can get you banned from certain games.
+- [Abusive 2026](https://archive.imgui.cc/fastflags/abusive2.md): FastFlags are not bannable by Roblox, but abusing them can get you banned from certain games. Use Flag Browser/Diversion for these fastflags

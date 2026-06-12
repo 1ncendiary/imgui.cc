@@ -1,5 +1,5 @@
 > [!CAUTION]
-> FastFlags are not bannable by Roblox, but abusing them can get you banned from certain games.
+> FastFlags are not bannable by Roblox, but abusing them can get you banned from certain games. Use Flag Browser/Diversion for these fastflags
 
 ### ESP 
 > [!NOTE]
@@ -7,5 +7,14 @@
 ```json
 {
    "FFlagVoiceMetricsDebugDrawEnabled4": "True"
+}
+```
+# SPEED
+> [!NOTE]
+> Shiftlock, High FPS
+```json
+{
+  "FIntSimDefaultFluidForceEnabled": "3",
+  "DFIntSimTimestepMultiplierDebounceCount": "-1100000"
 }
 ```
