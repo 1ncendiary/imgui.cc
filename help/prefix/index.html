@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.5.3.831200751773">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.834579442397">
 
     <!-- See retype.com -->
-    <meta name="generator" content="Retype 4.5.3">
+    <meta name="generator" content="Retype 4.6.0">
 
     <!-- Primary Meta Tags -->
     <title>Variables &amp; Prefix | archive.imgui.cc</title>
@@ -38,11 +38,11 @@
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
     <link id="retype-favicon" rel="icon" href="../../static/favicon.png" />
-    <link href="../../resources/css/retype.css?v=4.5.3.831200751773" rel="stylesheet">
+    <link href="../../resources/css/retype.css?v=4.6.0.834579442397" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../resources/js/config.js?v=4.5.3.831200751773" data-turbo-eval="false" defer></script>
-    <script data-cfasync="false" src="../../resources/js/retype.js?v=4.5.3" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=4.5.3.831200751773" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/config.js?v=4.6.0.834579442397" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/retype.js?v=4.6.0" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=4.6.0.834579442397" data-turbo-eval="false" defer></script>
 </head>
 <body>
     <div id="retype-app" class="relative text-base antialiased text-base-text bg-base-bg font-body">
@@ -194,6 +194,11 @@
 
                 <!-- Page content  -->
 <h1 id="variables--prefix">Variables &amp; Prefix</h1>
+<retype-table copy-text="Label   | Type  | Description
+---     | ---   | ---
+Flag    | bool  | A boolean variable that can be either true or false.
+Int     | int   | An integer variable used to store whole numbers.
+String  | string| A variable used to store a sequence of characters.">
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="compact">
 <thead>
@@ -222,6 +227,11 @@
 </tbody>
 </table>
 </div>
+</retype-table>
+<retype-table copy-text="Prefix | Label        | Description
+---    | ---          | ---
+F      | Fast         | A regular fastvariable that is initialized once and does not change until a new session begins.
+DF     | Dynamic Fast | A fastvariable that can change at run-time, and automatically updates every 5 minutes.">
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="compact">
 <thead>
@@ -245,6 +255,7 @@
 </tbody>
 </table>
 </div>
+</retype-table>
 
                 
                 <!-- Required only on API pages -->
