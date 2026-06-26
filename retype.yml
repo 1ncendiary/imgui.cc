@@ -3,12 +3,13 @@
 # -----------------------------------------------------------------------------
 
 url: archive.imgui.cc
+url: fastflags.netlify.app
 
 start:
     pro: true
 
 meta:
-  title: " | archive.imgui.cc"
+  title: " | fastflags archive"
 
 breadcrumb:
   enabled: true
@@ -18,7 +19,7 @@ breadcrumb:
 # -----------------------------------------------------------------------------
 
 branding:
-  title: imgui.cc
+  title: archive
   logo: assets/cartii.jpg
 
   colors:
@@ -42,7 +43,7 @@ links:
 # -----------------------------------------------------------------------------
 
 footer:
-  copyright: "© Copyright {{ year }} – imgui.cc – All rights reserved."
+  copyright: "© Copyright {{ year }} – imgui.cc / fastflags.netlify.app – All rights reserved."
   links:
     - text: Privacy Policy
       link: privacy-policy.md
