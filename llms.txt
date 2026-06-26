@@ -1,6 +1,6 @@
 ﻿#  | fastflags archive
 
-> archive.imgui.cc was a community-driven resource dedicated to cataloging and sharing information about FastFlags configuration.
+> This was a community-driven resource dedicated to cataloging and sharing information about FastFlags configuration.
 
 - [Information](https://archive.imgui.cc/index.md): Information
 - [Contact](https://archive.imgui.cc/contact.md): Thanks a lot for spending your time helping.
