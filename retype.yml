@@ -8,6 +8,8 @@ url: fastflags.netlify.app
 start:
     pro: true
 
+poweredByRetype: false
+
 meta:
   title: " | fastflags archive"
 
