@@ -1,4 +1,4 @@
-﻿#  | archive.imgui.cc
+﻿#  | fastflags archive
 
 > archive.imgui.cc was a community-driven resource dedicated to cataloging and sharing information about FastFlags configuration.
 
