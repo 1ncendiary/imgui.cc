@@ -109,3 +109,9 @@ A method on how to bypass this via Proxy Interception is on our [Patreon](https:
     "FFlagHandleAltEnterFullscreenManually": "False"
 }
 ```
+### Vulkan Renderer
+```json
+{
+    "FFlagDebugGraphicsPreferVulkan": "True"
+}
+```
