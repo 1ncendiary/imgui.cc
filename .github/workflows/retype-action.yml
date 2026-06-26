@@ -3,11 +3,14 @@ on:
   workflow_dispatch:
   push:
     branches:
-      - master
+      - main
 
 jobs:
   publish:
+    name: Publish to retype branch
+
     runs-on: ubuntu-latest
+
     permissions:
       contents: write
 
@@ -17,6 +20,8 @@ jobs:
           fetch-depth: 0
 
       - uses: retypeapp/action-build@latest
+        env:
+          RETYPE_KEY: dEVPBhEAT01MR0NBQ0xBT0VHR0NDR0dGT09PRUFDTEZARE9PT09FRERET15aEx0AHAEWWh0bT0Q-pId4N7uwS11nfzalpH2MG9Wql5Jtoc9vFnQMJJeh0WfKhv7CHrYPeg
 
       - uses: retypeapp/action-github-pages@latest
         with:
