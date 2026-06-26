@@ -9,11 +9,11 @@ date: 2023-08-26
 
 <div align="center">
 
-# FastFlags Archive
+# fastflags archive
   
 <img src="assets/pbc.png" width="768">
 
-**archive.imgui.cc** was a community-driven resource dedicated to cataloging and sharing information about FastFlags configuration.
+This was a community-driven resource dedicated to cataloging and sharing information about FastFlags configuration.
 
 </div>
 
